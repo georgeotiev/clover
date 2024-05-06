@@ -127,8 +127,8 @@ curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip2.py
 python3 get-pip.py
 python get-pip2.py
 rm get-pip.py get-pip2.py
-#my_travis_retry pip install --upgrade pip
-#my_travis_retry pip3 install --upgrade pip
+my_travis_retry pip install --upgrade pip
+my_travis_retry pip3 install tensorflow-cpu==2.5.0
 
 echo_stamp "Make sure both pip and pip3 are installed"
 pip --version
