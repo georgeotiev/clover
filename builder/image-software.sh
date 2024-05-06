@@ -131,7 +131,7 @@ rm get-pip.py get-pip2.py
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3.9.7
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 7
-my_travis_retry pip3 install tensorflow==2.5.0
+my_travis_retry pip3 install tensorflow==2.5.2
 
 echo_stamp "Make sure both pip and pip3 are installed"
 pip --version
