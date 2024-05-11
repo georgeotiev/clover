@@ -87,34 +87,34 @@ unzip \
 zip \
 # ipython \
 # ipython3 \
-screen \
-byobu  \
-nmap \
-lsof \
-git \
-dnsmasq  \
-tmux \
-tree \
-vim \
+# screen \
+# byobu  \
+# nmap \
+# lsof \
+# git \
+# dnsmasq  \
+# tmux \
+# tree \
+# vim \
 # libjpeg8 \
-tcpdump \
-libpoco-dev \
-libzbar0 \
-python3-rosdep \
-python3-rosinstall-generator \
-python3-wstool \
-python3-rosinstall \
-build-essential \
-libffi-dev \
-monkey \
-pigpio python-pigpio python3-pigpio \
-i2c-tools \
+# tcpdump \
+# libpoco-dev \
+# libzbar0 \
+# python3-rosdep \
+# python3-rosinstall-generator \
+# python3-wstool \
+# python3-rosinstall \
+# build-essential \
+# libffi-dev \
+# monkey \
+# pigpio python-pigpio python3-pigpio \
+# i2c-tools \
 # espeak espeak-data python-espeak python3-espeak \
-ntpdate \
-python-dev \
-python3-dev \
+# ntpdate \
+# python-dev \
+# python3-dev \
 # python-systemd \
-mjpg-streamer \
+# mjpg-streamer \
 python3-opencv
 
 # Deny byobu to check available updates
