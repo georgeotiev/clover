@@ -115,7 +115,7 @@ zip \
 # python3-dev \
 # python-systemd \
 # mjpg-streamer \
-python3-opencv
+# python3-opencv
 
 # Deny byobu to check available updates
 sed -i "s/updates_available//" /usr/share/byobu/status/status
