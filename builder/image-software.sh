@@ -85,10 +85,10 @@ my_travis_retry apt-get install --no-install-recommends -y cmake-data cmake # FI
 my_travis_retry apt-get install --no-install-recommends -y \
 unzip \
 zip \
-ipython \
+# ipython \
 # ipython3 \
 # screen \
-byobu  \
+# byobu  \
 # nmap \
 # lsof \
 # git \
@@ -118,7 +118,7 @@ byobu  \
 # python3-opencv
 
 # Deny byobu to check available updates
-sed -i "s/updates_available//" /usr/share/byobu/status/status
+# sed -i "s/updates_available//" /usr/share/byobu/status/status
 # sed -i "s/updates_available//" /home/pi/.byobu/status
 
 echo_stamp "Installing pip"
