@@ -85,7 +85,7 @@ my_travis_retry apt-get install --no-install-recommends -y cmake-data cmake # FI
 my_travis_retry apt-get install --no-install-recommends -y \
 unzip \
 zip \
-# ipython \
+ipython \
 # ipython3 \
 # screen \
 byobu  \
