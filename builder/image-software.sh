@@ -126,12 +126,13 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip2.py
 python3 get-pip.py
 python get-pip2.py
-#rm get-pip.py get-pip2.py
-#my_travis_retry pip install --upgrade pip
+rm get-pip.py get-pip2.py
+my_travis_retry pip install --upgrade pip
+my_travis_retry pip3 install --upgrade pip
 #sudo add-apt-repository ppa:deadsnakes/ppa
-sudo apt install python3.9.7
-sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 7
-my_travis_retry pip3 install tensorflow==2.5.2
+# sudo apt install python3.9.7
+# sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 7
+# my_travis_retry pip3 install tensorflow==2.5.2
 
 echo_stamp "Make sure both pip and pip3 are installed"
 pip --version
