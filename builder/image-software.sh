@@ -86,7 +86,7 @@ my_travis_retry apt-get install --no-install-recommends -y \
 unzip \
 zip \
 # ipython \
-ipython3 \
+# ipython3 \
 screen \
 byobu  \
 nmap \
