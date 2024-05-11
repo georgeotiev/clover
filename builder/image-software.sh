@@ -96,7 +96,7 @@ dnsmasq  \
 tmux \
 tree \
 vim \
-libjpeg8 \
+# libjpeg8 \
 tcpdump \
 libpoco-dev \
 libzbar0 \
@@ -109,11 +109,11 @@ libffi-dev \
 monkey \
 pigpio python-pigpio python3-pigpio \
 i2c-tools \
-espeak espeak-data python-espeak python3-espeak \
+# espeak espeak-data python-espeak python3-espeak \
 ntpdate \
 python-dev \
 python3-dev \
-python-systemd \
+# python-systemd \
 mjpg-streamer \
 python3-opencv
 
