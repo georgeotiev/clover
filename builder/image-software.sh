@@ -88,7 +88,7 @@ zip \
 # ipython \
 # ipython3 \
 # screen \
-# byobu  \
+byobu  \
 # nmap \
 # lsof \
 # git \
