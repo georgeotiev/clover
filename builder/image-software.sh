@@ -85,7 +85,7 @@ my_travis_retry apt-get install --no-install-recommends -y cmake-data cmake # FI
 my_travis_retry apt-get install --no-install-recommends -y \
 unzip \
 zip \
-ipython \
+# ipython \
 ipython3 \
 screen \
 byobu  \
@@ -141,9 +141,9 @@ pip3 --version
 echo_stamp "Install and enable Butterfly (web terminal)"
 echo_stamp "Workaround for tornado >= 6.0 breaking butterfly"
 export CRYPTOGRAPHY_DONT_BUILD_RUST=1
-my_travis_retry pip3 install cryptography==3.4.6 # https://stackoverflow.com/a/68472128/6850197
-my_travis_retry pip3 install pyOpenSSL==20.0.1
-my_travis_retry pip3 install tornado==5.1.1
+my_travis_retry pip3 install cryptography # https://stackoverflow.com/a/68472128/6850197
+my_travis_retry pip3 install pyOpenSSL
+my_travis_retry pip3 install tornado
 my_travis_retry pip3 install butterfly
 my_travis_retry pip3 install butterfly[systemd]
 systemctl enable butterfly.socket
