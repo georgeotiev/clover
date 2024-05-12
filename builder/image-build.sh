@@ -17,7 +17,7 @@ set -e # Exit immidiately on non-zero result
 
 # https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit
 # SOURCE_IMAGE="https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip"
-SOURCE_IMAGE="https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2024-03-15/2024-03-15-raspios-bookworm-armhf-lite.img.xz"
+SOURCE_IMAGE="https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso"
 
 
 export DEBIAN_FRONTEND=${DEBIAN_FRONTEND:='noninteractive'}
