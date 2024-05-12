@@ -85,40 +85,40 @@ my_travis_retry apt-get install --no-install-recommends -y cmake-data cmake # FI
 my_travis_retry apt-get install --no-install-recommends -y \
 unzip \
 zip \
-# ipython \
-# ipython3 \
-# screen \
-# byobu  \
-# nmap \
-# lsof \
-# git \
-# dnsmasq  \
-# tmux \
-# tree \
-# vim \
-# libjpeg8 \
-# tcpdump \
-# libpoco-dev \
-# libzbar0 \
-# python3-rosdep \
-# python3-rosinstall-generator \
-# python3-wstool \
-# python3-rosinstall \
-# build-essential \
-# libffi-dev \
-# monkey \
-# pigpio python-pigpio python3-pigpio \
-# i2c-tools \
-# espeak espeak-data python-espeak python3-espeak \
-# ntpdate \
-# python-dev \
-# python3-dev \
-# python-systemd \
-# mjpg-streamer \
-# python3-opencv
+ipython \
+ipython3 \
+screen \
+byobu  \
+nmap \
+lsof \
+git \
+dnsmasq  \
+tmux \
+tree \
+vim \
+libjpeg8 \
+tcpdump \
+libpoco-dev \
+libzbar0 \
+python3-rosdep \
+python3-rosinstall-generator \
+python3-wstool \
+python3-rosinstall \
+build-essential \
+libffi-dev \
+monkey \
+pigpio python-pigpio python3-pigpio \
+i2c-tools \
+espeak espeak-data python-espeak python3-espeak \
+ntpdate \
+python-dev \
+python3-dev \
+python-systemd \
+mjpg-streamer \
+python3-opencv
 
 # Deny byobu to check available updates
-# sed -i "s/updates_available//" /usr/share/byobu/status/status
+sed -i "s/updates_available//" /usr/share/byobu/status/status
 # sed -i "s/updates_available//" /home/pi/.byobu/status
 
 echo_stamp "Installing pip"
